@@ -22,11 +22,11 @@ class Todo
 
 	{
 
-		$this->title = "";
+		$this->title = $title;
 
-		$this->description = "";
+		$this->description = $description;
 
-		$this->author = "";
+		$this->author = $author;
 
 	}
 
